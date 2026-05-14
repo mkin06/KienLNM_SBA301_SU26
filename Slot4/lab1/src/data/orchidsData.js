@@ -1,3 +1,5 @@
+import { imageFiles } from './banner'
+
 const flowerNames = [
   'Ceasar 4N',
   'Mini Yaya',
@@ -24,20 +26,7 @@ const flowerCategories = [
   'Phalaenopsis'
 ]
 
-export const imageFiles = [
-    '!.webp',
-    '@.png',
-    '3.png',
-    '$.png',
-    '%.jpg',
-    '^.webp',
-    '&.jpg',
-    '8.jpeg',
-    '9.jpg',
-    '10.jpg'
-  ]
-
-  const flowers = flowerNames.map((name, i) => ({
+const flowers = flowerNames.map((name, i) => ({
   id: `F${100 + i}`,
   name,
   category: flowerCategories[i],

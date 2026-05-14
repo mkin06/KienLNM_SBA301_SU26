@@ -7,8 +7,8 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import MyProfile from './components/MyProfile'
 import BannerCarousel from './components/Carousel'
-import flowers, { imageFiles } from './data/flower'
-
+import flowers from './data/orchidsData'
+import { imageFiles } from './data/banner'
 
 function App() {
   return (
